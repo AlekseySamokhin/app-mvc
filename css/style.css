@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 50% 50%;
+  grid-template-areas:
+    "form table"
+    "filtres table"
+}
+
+.item {
+  border: 1px solid black;
+}
+
+.item_2 {
+  grid-row: span 3;
+}
+
+.color {
+  list-style-type: none;
+}
+
+.title {
+  text-align: center;
+}
+
+.padding {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.margin-auto {
+  margin: 0 auto;
+}
+
+.flex__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.employees {
+    background: #5d79ce;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+  }

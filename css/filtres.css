@@ -1,0 +1,49 @@
+.filter {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 130px 1fr;
+  background: #96a5d2;
+  padding: 15px;
+  height: 100%;
+  width: 100%;
+  justify-items: center;
+  align-items: center;
+}
+
+.filter__title {
+  grid-column: 1 / 3;
+}
+
+.filter__label {
+  grid-column: 1 / 2;
+  height: 19px;
+}
+
+.filter__name {
+  margin-top: 10px;
+  grid-column: 1 / 3;
+}
+
+.filter__button {
+  grid-column: 1 / 3;
+}
+
+.filter__btn {
+  grid-column: 1 / 3;
+}
+
+.filter__select {
+  width: 225px;
+  height: 30px;
+  border-radius: 4px;
+}
+
+.sorting__select {
+  width: 225px;
+  height: 30px;
+  border-radius: 4px;
+}
+
+.filter__btn .btn:first-child {
+    margin-right: 10px;
+}

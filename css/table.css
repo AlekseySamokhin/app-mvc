@@ -1,0 +1,19 @@
+.table {
+  margin-top: 20px;
+  width: 100%;
+  font-size: 14px;
+  border-spacing: 0 10px;
+  font-weight: bold;
+}
+
+.thead__tr th {
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  border-color: white;
+}
+
+.table__thead {
+  border-radius: 4px;
+  background: #96a5d2;
+  height: 50px;
+}
